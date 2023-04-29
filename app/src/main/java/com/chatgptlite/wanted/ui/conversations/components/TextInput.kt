@@ -44,7 +44,7 @@ fun TextInput(
                             text = it
                         },
                         label = null,
-                        placeholder = { Text("Ask me anything", fontSize = 12.sp) },
+                        placeholder = { Text("მკითხე რაც გინდა..", fontSize = 12.sp) },
                         shape = RoundedCornerShape(25.dp),
                         modifier = Modifier
                             .fillMaxWidth()

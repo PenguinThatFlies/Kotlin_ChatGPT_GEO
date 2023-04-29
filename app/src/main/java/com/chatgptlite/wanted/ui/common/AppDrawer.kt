@@ -75,21 +75,22 @@ fun AppDrawer(
         Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
         DrawerHeader(clickAction = onIconClicked)
         DividerItem()
-        DrawerItemHeader("Chats")
-        ChatItem("New Chat", Icons.Outlined.AddComment, false) {
+        DrawerItemHeader("ჩატები")
+        ChatItem("ახალი ჩატი", Icons.Outlined.AddComment, false) {
             onNewChatClicked()
             conversationViewModel.newConversation()
         }
         HistoryConversations(onChatClicked)
         DividerItem(modifier = Modifier.padding(horizontal = 28.dp))
-        DrawerItemHeader("Settings")
-        ChatItem("Settings", Icons.Filled.Settings, false) { onChatClicked("Settings") }
+        DrawerItemHeader("პარამეტრები")
+        //ChatItem("პარამეტრები", Icons.Filled.Settings, false) { onChatClicked("პარამეტრები") }
         ProfileItem(
-            "lambiengcode (author)",
+            "ირაკლი შარიქაძე (ავტორი)",
             urlToImageAuthor,
-        ) {
-            UrlLauncher().openUrl(context = context, urlToGithub)
-        }
+        ){}
+        //{
+        //    UrlLauncher().openUrl(context = context, urlToGithub)
+        //}
     }
 }
 
@@ -121,7 +122,7 @@ private fun DrawerHeader(
                     color = MaterialTheme.colorScheme.secondary,
                 )
                 Text(
-                    "Powered by OpenAI",
+                    "Georgian Language",
                     fontSize = 11.sp,
                     fontWeight = FontWeight.Normal,
                     color = Color.White,

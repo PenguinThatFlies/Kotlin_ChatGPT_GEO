@@ -1,11 +1,11 @@
 package com.chatgptlite.wanted.constants
 
-const val openAIApiKey = "<api_key_here>"
+const val openAIApiKey = "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"
 
-const val urlToImageAppIcon = "https://res.cloudinary.com/apideck/image/upload/v1672442492/marketplaces/ckhg56iu1mkpc0b66vj7fsj3o/listings/-4-ans_frontend_assets.images.poe.app_icon.png-26-8aa0a2e5f237894d_tbragv.png"
-const val urlToImageAuthor = "https://avatars.githubusercontent.com/u/60530946?v=4"
+const val urlToImageAppIcon = "https://static.vecteezy.com/system/resources/previews/019/786/706/original/chatbot-icon-cute-smiling-robot-cartoon-character-illustration-png.png"
+const val urlToImageAuthor = "https://avatars.githubusercontent.com/u/127890770?v=4"
 const val urlToAvatarGPT = "https://gptapk.com/wp-content/uploads/2023/02/chatgpt-icon.png"
-const val urlToGithub = "https://github.com/lambiengcode"
+const val urlToGithub = "https://github.com/PenguinThatFlies"
 
 const val matchResultString = "\"text\":"
 const val matchResultTurboString = "\"content\":"

@@ -17,13 +17,14 @@ import com.chatgptlite.wanted.ui.common.AppBar
 import com.chatgptlite.wanted.ui.common.AppScaffold
 import com.chatgptlite.wanted.ui.conversations.Conversation
 import com.chatgptlite.wanted.ui.theme.ChatGPTLiteTheme
+import com.google.android.gms.ads.interstitial.InterstitialAd
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val mainViewModel: MainViewModel by viewModels()
-
+    private var interAd: InterstitialAd? = null
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -105,6 +106,9 @@ class MainActivity : ComponentActivity() {
             }
         )
     }
+
+
+
 }
 
 @Preview(showBackground = true)

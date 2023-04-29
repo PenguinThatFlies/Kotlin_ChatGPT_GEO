@@ -65,7 +65,7 @@ class ConversationViewModel @Inject constructor(
 
         val newMessageModel: MessageModel = MessageModel(
             question = message,
-            answer = "Let me thinking...",
+            answer = "ნება მომეცით ვიფიქრო...",
             conversationId = _currentConversation.value,
         )
 

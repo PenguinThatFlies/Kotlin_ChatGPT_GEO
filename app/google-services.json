@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "845089909061",
-    "project_id": "chatgpt-compose-a5905",
-    "storage_bucket": "chatgpt-compose-a5905.appspot.com"
+    "project_number": "1060754736396",
+    "project_id": "chatgptgeo",
+    "storage_bucket": "chatgptgeo.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:845089909061:android:8e1db4bc04243a2685362c",
+        "mobilesdk_app_id": "1:1060754736396:android:1ee97608df8207038af529",
         "android_client_info": {
           "package_name": "com.chatgptlite.wanted"
         }
       },
       "oauth_client": [
         {
-          "client_id": "845089909061-kbqagttkg1o9gio7qe81jes7aartptbt.apps.googleusercontent.com",
+          "client_id": "1060754736396-5iqtib7pb9n9cjr1hjofra77vsibo7s7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAKJcitlh91D2BWQ6fkiwtswcbgm0_8k-8"
+          "current_key": "AIzaSyD_HJAOv9BN9H_ZU0G78u5aPTW00NqTGik"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "845089909061-kbqagttkg1o9gio7qe81jes7aartptbt.apps.googleusercontent.com",
+              "client_id": "1060754736396-5iqtib7pb9n9cjr1hjofra77vsibo7s7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

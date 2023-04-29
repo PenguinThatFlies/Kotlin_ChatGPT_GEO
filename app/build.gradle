@@ -21,7 +21,7 @@ android {
         minSdk 24
         targetSdk 33
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -60,6 +60,11 @@ android {
 }
 
 dependencies {
+    def lifecycle_version = "2.2.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
     implementation 'androidx.activity:activity-compose:1.7.0'
@@ -69,6 +74,7 @@ dependencies {
     implementation 'androidx.compose.ui:ui-viewbinding:1.4.0'
     implementation 'androidx.compose.ui:ui-util:1.4.0'
     implementation 'androidx.compose.material:material-icons-extended:1.4.0'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -111,6 +117,9 @@ dependencies {
     implementation "com.halilibo.compose-richtext:richtext-commonmark:${richtext_version}"
     implementation "com.halilibo.compose-richtext:richtext-ui-material:${richtext_version}"
     implementation "com.halilibo.compose-richtext:richtext-ui-material3:${richtext_version}"
+
+
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
 }
 
 // Allow references to generated code

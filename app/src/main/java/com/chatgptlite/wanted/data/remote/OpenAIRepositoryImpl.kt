@@ -73,7 +73,7 @@ class OpenAIRepositoryImpl @Inject constructor(
                             e.printStackTrace()
                         }
                     }
-                    trySend("Failure! Try again.")
+                    trySend("ვერ მოიძებნა! კიდევ სცადეთ")
                     close()
                 }
             }
